@@ -1,0 +1,91 @@
+[{
+        "Dealer_ID": 43569,
+        "HandsPerHour": 84.39,
+        "DifferencefromCasinoAvg": 61.25,
+        "TotalHands": 790.0
+    },
+    {
+        "Dealer_ID": 20641,
+        "HandsPerHour": 80.49,
+        "DifferencefromCasinoAvg": 57.35,
+        "TotalHands": 320.0
+    },
+    {
+        "Dealer_ID": 3624,
+        "HandsPerHour": 76.69,
+        "DifferencefromCasinoAvg": 53.55,
+        "TotalHands": 883.0
+    },
+    {
+        "Dealer_ID": 40540,
+        "HandsPerHour": 73.03,
+        "DifferencefromCasinoAvg": 49.88,
+        "TotalHands": 871.0
+    },
+    {
+        "Dealer_ID": 21029,
+        "HandsPerHour": 72.94,
+        "DifferencefromCasinoAvg": 49.8,
+        "TotalHands": 336.0
+    },
+    {
+        "Dealer_ID": 48475,
+        "HandsPerHour": 66.52,
+        "DifferencefromCasinoAvg": 43.37,
+        "TotalHands": 171.0
+    },
+    {
+        "Dealer_ID": 40684,
+        "HandsPerHour": 57.92,
+        "DifferencefromCasinoAvg": 34.77,
+        "TotalHands": 232.0
+    },
+    {
+        "Dealer_ID": 25579,
+        "HandsPerHour": 50.46,
+        "DifferencefromCasinoAvg": 27.32,
+        "TotalHands": 556.0
+    },
+    {
+        "Dealer_ID": 25620,
+        "HandsPerHour": 19.6,
+        "DifferencefromCasinoAvg": -3.54,
+        "TotalHands": 864.0
+    },
+    {
+        "Dealer_ID": 47278,
+        "HandsPerHour": 14.39,
+        "DifferencefromCasinoAvg": -8.75,
+        "TotalHands": 201.0
+    },
+    {
+        "Dealer_ID": 8959,
+        "HandsPerHour": 6.56,
+        "DifferencefromCasinoAvg": -16.58,
+        "TotalHands": 269.0
+    },
+    {
+        "Dealer_ID": 6047,
+        "HandsPerHour": 5.79,
+        "DifferencefromCasinoAvg": -17.35,
+        "TotalHands": 97.0
+    },
+    {
+        "Dealer_ID": 14300,
+        "HandsPerHour": 2.2,
+        "DifferencefromCasinoAvg": -20.94,
+        "TotalHands": 89.0
+    },
+    {
+        "Dealer_ID": 4687,
+        "HandsPerHour": 0.0,
+        "DifferencefromCasinoAvg": -23.14,
+        "TotalHands": 0.0
+    },
+    {
+        "Dealer_ID": 20785,
+        "HandsPerHour": 0.0,
+        "DifferencefromCasinoAvg": -23.14,
+        "TotalHands": 0.0
+    }
+]
