@@ -1,6 +1,9 @@
-var app = require('express')();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
+const app = require('express')();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
+const cors = require('cors');
+
+app.use(cors());
 
 const files = [{
         name: 'Dealers Log',
@@ -16,17 +19,22 @@ const files = [{
 
 files.forEach((ele, index) => {
     app.get('/' + ele.url, function (req, res) {
-        res.sendFile(__dirname + ele.filePath);
+        setResDataType(res).sendFile(__dirname + ele.filePath);
     });
 });
 
 app.get('/getDropdownOptions', (req, res) => {
-    res.send(files);
+    setResDataType(res).send(JSON.stringify(files));
 })
 
 io.on('connection', function (socket) {
     console.log('a user connected');
 });
+
+function setResDataType(res) {
+    res.setHeader('Content-Type', 'application/json');
+    return res;
+}
 
 http.listen(3000, function () {
     console.log('listening on *:3000');

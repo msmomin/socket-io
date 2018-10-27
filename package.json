@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.15.2",
     "npm": "^6.4.1",
     "socket.io": "^2.1.1"
